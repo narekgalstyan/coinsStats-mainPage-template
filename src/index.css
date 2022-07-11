@@ -1,13 +1,202 @@
-body {
-  margin: 0;
-  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
-    'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
-    sans-serif;
-  -webkit-font-smoothing: antialiased;
-  -moz-osx-font-smoothing: grayscale;
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@500&display=swap');
+.App {
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+  padding: 1rem;
+  margin-left:130px;
+  margin-top: 40px;
+  
 }
 
-code {
-  font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
-    monospace;
+body{
+  background-color: black;
+    width: 1074px;
+    left: -108px;
+    position: relative;
+    
 }
+table{
+    position: relative;
+    left: 135px;
+    border: 1px solid rgb(114, 100, 100);
+    border-radius:10px;
+}
+
+td {
+  color:white;
+  text-align: right;
+  padding: 8px 6px;
+  font-size: 11px;
+  left: -133px;;
+  font-weight: bold;
+  font-family: 'Roboto', sans-serif;
+}
+
+thead td{
+  opacity: 0.5;
+}
+
+.name{
+  margin-left: 176px;
+  position: absolute;
+  margin-top: 0px;
+}
+
+img{
+  margin-left: -15px;
+    width: 25px;
+    top: 2px;
+    position: relative;
+}
+
+.itemName{
+  position: absolute;
+  margin-left: 212px;
+  margin-top: 6px;
+  font-size: 15px;
+}
+
+.Change{
+  left:53px;
+  position: relative;
+}
+
+.itemSymbol{
+  position: absolute;
+  margin-right: 50px;
+  align-items: right;
+}
+
+.symbol{
+  color:rgba(167, 177, 187, 0.479);
+  font-weight: 100;
+  margin-left: 10px;
+}
+
+.ket{
+  font-weight: bold;
+  margin-left: 3px;
+  margin-top: -3px;
+  position: absolute;
+  color:rgba(167, 177, 187, 0.479);
+
+}
+
+.price{
+  margin-left: 553px;
+  position: absolute;
+}
+
+.priceChange1d{
+    left: 247px;
+    position: absolute;
+    margin-top: 8px;
+    align-items: right;
+    background-color: rgba(37, 255, 37, 0.986);
+    color: rgb(15, 70, 14);
+    border-radius: 7px;
+}
+
+.priceChange1d:before{
+  content: '';
+  width: 0;
+  height: 0;
+  border-left: 4px solid transparent;
+  border-right: 4px solid transparent;
+  border-bottom: 11px solid rgb(20, 88, 6);
+  position: relative;
+  top: -14px;
+  left: -2px;
+}
+
+.priceChange:before{
+  content: '';
+  width: 0;
+  height: 0;
+  border-left: 4px solid transparent;
+  border-right: 4px solid transparent;
+  border-top: 11px solid rgb(107, 45, 45);
+  position: relative;
+  top: 14px;
+}
+
+.priceChange{
+  left: 247px;
+  position: absolute;
+  margin-top: 8px;
+  align-items: right;
+  background-color: rgb(255, 37, 37);
+  color:rgb(56, 8, 8);
+  border-radius:7px;
+ 
+}
+
+.liik{
+  color:black;
+}
+
+.pagname{
+    display: flex;
+    left: 451px;
+    top: 10px;
+    position: relative;
+}
+
+.pagnumb{
+ list-style: none;
+padding-left:25px;
+color:aliceblue;
+cursor:pointer;
+font-size:14px;
+position: relative;
+}
+
+.pagnumb:hover{
+  list-style: none;
+  padding-left: 14px;
+  padding-top: 11px;
+  width: 22px;
+  height: 25px;
+  background-color: rgb(248, 226, 226);
+  color: rgb(136, 112, 112);
+  border-radius: 20px;
+  cursor: pointer;
+  font-size: 14px;
+  position: relative;
+  left: 12px;
+  top: -10px;
+  opacity: 0.3;
+}
+
+.itemPrice{
+  position: relative;
+  padding-top: 11px;
+  left: 44px;
+  top: -10px;
+}
+
+.pagnumb2{
+  list-style: none;
+  padding-left: 14px;
+  padding-top: 11px;
+  width: 22px;
+  height: 25px;
+  background-color: rgb(219, 206, 23);
+  color: black;
+  border-radius: 20px;
+  cursor: pointer;
+  font-size: 14px;
+  position: relative;
+  left: 12px;
+    top: -10px;
+ }
+
+ .priceBtc,.marketCap,.volume{
+  opacity:0.6;
+ }
+
+ .rank{
+  opacity:0.6;
+  width: 10px;
+ }
